@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: 1350px 600px ;
+    background-size: 2000px 950px;
 }
 
 html, body{
@@ -142,4 +142,23 @@ html, body{
     .arm{
         flex-direction: column;
     }
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.img{
+    box-sizing: content-box;
+    align-content: center;
+    display: flex;
+    justify-content: center;
 }
