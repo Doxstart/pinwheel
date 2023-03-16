@@ -12,11 +12,11 @@ html, body{
     padding: 0px;
 }
 
-.sticky{
+.logo{
     background-image: url(./assets/logo.png);
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 1200px 125px;
+    background-size: 1200px 220px;
     position: sticky;
 }
 
@@ -39,7 +39,7 @@ html, body{
 }
 
 .arm{
-    border: 1px solid red;
+    border: 0px solid red;
     border-radius: 25px;
     justify-items: stretch;
 }
@@ -70,7 +70,7 @@ html, body{
 .arm-img{
     width: 16.66vw;
     height: 16.66vw;
-    border: 1px solid green;
+    border: 0px solid green;
     border-radius: 25px;
 }
 
@@ -79,7 +79,7 @@ html, body{
     background-color: rgb(8, 22, 218);
     width: 16.66vw;
     height: 16.66vw;
-    border: 1px solid yellow;
+    border: 0px solid yellow;
     border-radius: 25px;
     display: flex;
     align-items: center;
