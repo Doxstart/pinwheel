@@ -1,5 +1,10 @@
 *{
     box-sizing: border-box;
+    background-image: url(./assets/Beat-walk.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 1350px 600px ;
 }
 
 html, body{
@@ -7,12 +12,21 @@ html, body{
     padding: 0px;
 }
 
+.sticky{
+    background-image: url(./assets/logo.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 1200px 125px;
+    position: sticky;
+}
 
 .grid-container{
-    border: 1px solid green;
+    border: 0px solid green;
     width: 100vw;
     height: 100vw;
     display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
     grid-template-columns: repeat(6, 1fr) ;
     grid-template-rows: repeat(6, 1fr) ;
     grid-template-areas:
@@ -26,6 +40,7 @@ html, body{
 
 .arm{
     border: 1px solid red;
+    border-radius: 25px;
     justify-items: stretch;
 }
 
@@ -56,16 +71,21 @@ html, body{
     width: 16.66vw;
     height: 16.66vw;
     border: 1px solid green;
+    border-radius: 25px;
 }
 
 .arm-text{
+    color: white;
+    background-color: rgb(8, 22, 218);
     width: 16.66vw;
     height: 16.66vw;
     border: 1px solid yellow;
+    border-radius: 25px;
     display: flex;
     align-items: center;
     text-align: center;
     padding: 8px;
+    mix-blend-mode: screen;
 }
 
 @media only screen and (max-width: 1000px) {
